@@ -9,3 +9,5 @@ RUN apt-get update && apt-get -y upgrade && DEBIAN_FRONTEND=noninteractive apt-g
   openssh-client \
   rsync \
  && rm -rf /var/lib/apt/lists/*
+
+RUN /bin/sh install_composer.sh
