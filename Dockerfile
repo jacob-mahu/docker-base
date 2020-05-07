@@ -9,6 +9,7 @@ RUN apt-get update && apt-get -y upgrade && DEBIAN_FRONTEND=noninteractive apt-g
   curl \
   php-cli \
   php-zip \
+  php-mbstring \
   php-curl \
   openssh-client \
   rsync \
