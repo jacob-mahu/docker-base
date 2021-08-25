@@ -8,12 +8,14 @@ RUN apt-get update && apt-get -y upgrade && DEBIAN_FRONTEND=noninteractive apt-g
   unzip \
   wget \
   curl \
+  openssh-client \
   php-cli \
   php-zip \
   php-xml \
+  php-tokenizer \
   php-mbstring \
   php-curl \
-  openssh-client \
+  php7.4-bcmath php7.4-mbstring php7.4-json php7.4-mysql \
   rsync \
  && rm -rf /var/lib/apt/lists/*
 
