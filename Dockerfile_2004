@@ -18,6 +18,5 @@ RUN apt-get update && apt-get -y upgrade && DEBIAN_FRONTEND=noninteractive apt-g
  && rm -rf /var/lib/apt/lists/*
 
 RUN mkdir ~/.ssh/ && touch ~/.ssh/known_hosts && ssh-keyscan -p 10022 git.jacob.de >> ~/.ssh/known_hosts
-COPY install_composer.sh install_composer.sh
-RUN /bin/bash install_composer.sh
-RUN composer global require hirak/prestissimo
+COPY install_composer2.sh install_composer2.sh
+RUN /bin/bash install_composer2.sh

@@ -20,6 +20,3 @@ docker push jacobmahu/ubuntu-20.04:latest
 docker run -it jacobmahu/ubuntu-18.04:latest
 docker run -it jacobmahu/ubuntu-20.04:latest
 ```
-
-# todo
-- install composer 2 in Ubuntu 20.04
