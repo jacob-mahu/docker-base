@@ -1,5 +1,5 @@
 # docker-base
-docker base images with php & composer pre-installed
+docker base images with php & composer pre-installed, see https://hub.docker.com/u/jacobmahu
 
 - Ubuntu 18.04 -> PHP 7.2, Composer 1
 - Ubuntu 20.04 -> PHP 7.4 Composer 2
